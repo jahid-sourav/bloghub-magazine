@@ -258,6 +258,7 @@ select:focus {
   padding: 6px;
   word-spacing: 2px;
   background-color: #2d3748;
+  color: #6874da;
   text-transform: uppercase;
 }
 
