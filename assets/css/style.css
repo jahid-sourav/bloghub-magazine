@@ -11,7 +11,7 @@ body {
   line-height: 1.2;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: #ae00ff;
+  color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -21,7 +21,7 @@ p,
   font-weight: 400;
   font-size: 14px;
   line-height: 1.9;
-  color: #ae00ff;
+  color: #FFFFFF;
 }
 
 h1,
@@ -32,7 +32,7 @@ h5,
 h6 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  color: #ae00ff;
+  color: #2d3748;
   line-height: 1.2;
 }
 
@@ -76,17 +76,17 @@ h6,
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #1a202c;
   overflow-x: hidden;
 }
 
 ::-moz-selection {
-  background: #e93698;
+  background: #1a202c;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #e93698;
+  background: #1a202c;
   color: #FFFFFF;
 }
 
