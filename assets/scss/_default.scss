@@ -64,3 +64,20 @@ input{
     }
 }
 // Form Style Ends Here
+
+// Components Style Starts Here
+.col-title{
+    padding-left: 25px;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 5px;
+        top: 0px;
+        left: 0px;
+        background-color: $offdark-color;
+        border-radius: 20px;
+    }
+}
+// Components Style Ends Here

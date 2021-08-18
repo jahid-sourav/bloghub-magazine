@@ -32,7 +32,6 @@ h5,
 h6 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  color: #2d3748;
   line-height: 1.2;
 }
 
@@ -69,6 +68,7 @@ h6,
 .title-sm {
   font-size: 24px;
   font-weight: 700;
+  color: #edf2f7;
 }
 
 /*  typography Ends Here*/
@@ -152,6 +152,22 @@ input:focus {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 20px;
+}
+
+.col-title {
+  padding-left: 25px;
+  position: relative;
+}
+
+.col-title::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  top: 0px;
+  left: 0px;
+  background-color: #718096;
+  border-radius: 20px;
 }
 
 * {
