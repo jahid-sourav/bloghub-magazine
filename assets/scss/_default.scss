@@ -1,3 +1,10 @@
+// PlaceHolder Style Starts Here
+::placeholder {
+    color: $offwhite-color !important;
+    font-size: 16px;
+}
+// PlaceHolder Style Ends Here
+
 // Buttons Style Starts Here
 .btn{
     transition: 0.3s all linear !important;
@@ -27,3 +34,33 @@
     }
 }
 // Buttons Style Ends Here
+
+// Form Style Starts Here
+input{
+    &:focus{
+        box-shadow: none !important;
+        border-color: $offdark-color !important;
+        background-color: $offdark-color !important;
+    }
+}
+.search-form{
+    position: relative;
+    input{
+        font-size: 16px;
+        font-weight: 600;
+        color: $offwhite-color !important;
+        padding: 10px 0px;
+        padding-left: 50px;
+        padding-right: 30px;
+        background-color: $offdark-color;
+        border: 1px solid $offdark-color;
+    }
+    svg{
+        fill: $ash-color;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 20px;
+    }
+}
+// Form Style Ends Here

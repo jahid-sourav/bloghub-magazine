@@ -24,3 +24,69 @@
     }
 }
 // SubHeader Ends Here
+
+// Header Starts Here
+header{
+    background-color: $secondary-color;
+    padding: 15px 0px;
+    .navbar-dark .navbar-toggler{
+        border-color: $accent-color !important;
+    }
+    .nav-item{
+        margin-right: 25px;
+        .nav-link{
+            transition: 0.3s all linear;
+            padding: 0 !important;
+            color: $offwhite-color !important;
+            font-size: 16px !important;
+            font-weight: 700 !important;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                bottom: -3px;
+                left: 0;
+                height: 2px;
+                width: 0;
+                background-color: $accent-color;
+                transition: 0.3s all linear;
+            }
+            &:hover{
+                color: $accent-color !important;
+                &::after{
+                    width: 100%;
+                }
+            }
+        }
+        .active{
+            color: $accent-color !important;
+            &::after{
+                width: 100%;
+            }
+        }
+        &:nth-child(3){
+            margin-right: 0;
+        }
+    }
+}
+// Header Ends Here
+
+//Responsive ==>
+@media (max-width: 991px) {
+    .sub-header-content .title-sm{
+        font-size: 16px;
+    }
+    header{
+        .search-form{
+            margin-top: 25px;
+        }
+        .nav-item{
+            margin-right: 0;
+            margin-top: 25px;
+            .nav-link{
+                display: inline-block !important;
+                font-size: 20px !important;
+            }
+        }
+    }
+}
