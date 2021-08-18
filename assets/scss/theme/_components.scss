@@ -1,0 +1,26 @@
+// SubHeader Starts Here
+.sub-header{
+    padding: 8px 0px;
+    background-color: $accent-color;
+    &-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .title-sm{
+            -webkit-text-stroke: 0.5px transparent;
+            font-size: 18px;
+            margin-bottom: 0;
+            color: $offwhite-color;
+            letter-spacing: 1px;
+            span{
+                border-radius: 5px;
+                padding: 6px;
+                word-spacing: 2px;
+                background-color: $secondary-color;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+// SubHeader Ends Here

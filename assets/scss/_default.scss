@@ -1,0 +1,29 @@
+// Buttons Style Starts Here
+.btn{
+    transition: 0.3s all linear !important;
+}
+.btn-link{
+    padding: 0;
+    color: $offwhite-color;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    &::after{
+        background-color: $secondary-color;
+        transition: 0.3s all linear;
+        content: '';
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 2px;
+    }
+    &:hover{
+        color: $secondary-color;
+        &::after{
+            width: 100%;
+        }
+    }
+}
+// Buttons Style Ends Here
