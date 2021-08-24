@@ -17,7 +17,7 @@
     text-decoration: none;
     position: relative;
     &::after{
-        background-color: $secondary-color;
+        background-color: $accent-color;
         transition: 0.3s all linear;
         content: '';
         position: absolute;
@@ -27,7 +27,7 @@
         height: 2px;
     }
     &:hover{
-        color: $secondary-color;
+        color: $accent-color;
         &::after{
             width: 100%;
         }

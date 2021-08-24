@@ -104,7 +104,7 @@ h6,
 }
 
 .btn-link::after {
-  background-color: #2d3748;
+  background-color: #6874da;
   -webkit-transition: 0.3s all linear;
   transition: 0.3s all linear;
   content: '';
@@ -116,7 +116,7 @@ h6,
 }
 
 .btn-link:hover {
-  color: #2d3748;
+  color: #6874da;
 }
 
 .btn-link:hover::after {
@@ -227,8 +227,8 @@ select:focus {
 }
 
 .sub-header {
-  padding: 8px 0px;
-  background-color: #6874da;
+  padding: 10px 0px;
+  background-color: #1a202c;
 }
 
 .sub-header-content {
