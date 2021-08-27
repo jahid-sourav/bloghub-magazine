@@ -265,6 +265,9 @@ header{
                 margin-right: 25px;
         }
     }
+    .article-info-sm span:last-child{
+        display: none;
+    }
 }
 @media only screen and (min-width: 420px) and (max-width: 574px) {
     .trending-card{
